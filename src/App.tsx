@@ -11,7 +11,7 @@ function App() {
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <p>
-          This is a test from PJ
+          This will be a resume site
         </p>
         <a
           className="App-link"
