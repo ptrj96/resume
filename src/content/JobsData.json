@@ -1,0 +1,49 @@
+{
+    "jobs": [
+        {
+            "company": "Pluralsight",
+            "title": "Software Engineer",
+            "date": "2021-Present",
+            "description": [
+                "Worked on Native App API team"
+            ]
+        },
+        {
+            "company": "Bluehost",
+            "title": "Software Engineer",
+            "date": "2020-2021",
+            "description": [
+                "Helped company pivot from older stack to modern Python/Flask microservices",
+                "Developed React web pages used to support over 2 million customers",
+                "Worked with designers and within design system to create user friendly pages",
+                "Lead trainings on Python for entire department of ~40 engineers",
+                "Helped architect template for company wide Python microservices used in more than 10 projects",
+                "Worked with Openshift for deployment of containerized applications"
+            ]
+        },
+        {
+            "company": "BYU Publications & Graphics",
+            "title": "Programmer and DevOps",
+            "date": "2018-2020",
+            "description": [
+                "Automated the development environment with Docker and Python to decrease wasted dev time by more than 80%",
+                "Built internal Python and Bash tools to reduce repetitive tasks",
+                "Worked on a team supporting websites with over 8 million collective views per year"
+
+            ]
+        },
+        {
+            "company": "BYU Dept. of Computer Science",
+            "title": "Teacher's Assistant",
+            "date": "2018",
+            "description": [
+                "Assigned to Intro to Computer Programming",
+                "Tutored approximately 50 students in C++",
+                "Ran help and review sessions",
+                "Debugged student assignments",
+                "Ranked by students as a top assistant in facilitating student learning amongst 25 total assistants"
+
+            ]
+        }
+    ]
+}
