@@ -5,7 +5,9 @@
             "title": "Software Engineer",
             "date": "2021-Present",
             "description": [
-                "Worked on Native App API team"
+                "Work in .NET stack building API for mobile applications.",
+                "Migrated from older framework to modern .NET core in Docker/K8s.",
+                "Built backend for frontend to ensure API contracts with mobile applications."
             ]
         },
         {
