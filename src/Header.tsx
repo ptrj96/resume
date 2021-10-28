@@ -21,10 +21,10 @@ function Header() {
                         <h3> { data.title } </h3>
                     </Row>
                     <Row>
-                        <Col md="auto"> <a className='headerLink' href = { "mailto: " + data.email } > Email </a> </Col>
-                        <Col md="auto"> <a className='headerLink' href = { data.github } >  GitHub </a> </Col>
-                        <Col md="auto"> <a className='headerLink' href = { data.linkedin } > LinkedIn </a> </Col>
-                        <Col md="auto"> <a className='headerLink' href = { pdf } download='resume.pdf'> Resume </a></Col>
+                        <Col xs="auto"> <a className='headerLink' href = { "mailto: " + data.email } > Email </a> </Col>
+                        <Col xs="auto"> <a className='headerLink' href = { data.github } >  GitHub </a> </Col>
+                        <Col xs="auto"> <a className='headerLink' href = { data.linkedin } > LinkedIn </a> </Col>
+                        <Col xs="auto"> <a className='headerLink' href = { pdf } download='resume.pdf'> Resume </a></Col>
                     </Row>
                 </Col>
             </Row>
