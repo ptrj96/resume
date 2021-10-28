@@ -1,37 +1,19 @@
 import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Job from './Job';
+
 const data = require('./content/JobsData.json')
 
 function Jobs() {
     return (
-        <ul>
+        <Container>
             { data.jobs.map((job: any) => {
                 return (
-                    <li>
-                        { Job(job.company, job.title, job.date, job.description) }
-                    </li>
+                    <Job  company={job.company} title={job.title} date={job.date} description={job.description} />
                 )
             })}
-        </ul>
+        </Container>
     );
-}
-
-function Job(company: string, title: string, date: string, description: Array<string>) {
-    return (
-        <div>
-            <p> { company } </p>
-            <p> { title } </p>
-            <p> { date } </p>
-            <ul>
-                {description.map((x) => {
-                    return (
-                        <li>
-                            { x }
-                        </li>
-                    )
-                })}
-            </ul>
-        </div>
-    )
 }
 
 export default Jobs;
