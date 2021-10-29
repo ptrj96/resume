@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './style/index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Header';
 import Jobs from './Jobs';

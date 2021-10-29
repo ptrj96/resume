@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css';
+import './style/Header.css';
 import PJ from './content/PJ_photo.jpg';
 import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
