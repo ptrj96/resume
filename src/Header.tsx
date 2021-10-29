@@ -11,11 +11,11 @@ const data = require('./content/HeaderData');
 function Header() {
     return (
         <Container>
-            <Row>
-                <Col md="auto">
+            <Row className="justify-content-center">
+                <Col xs="auto">
                     <Image src={ PJ } className="photo" roundedCircle/>
                 </Col>
-                <Col>
+                <Col xs="auto">
                     <Row>
                         <h1> { data.name } </h1>
                         <h3> { data.title } </h3>
