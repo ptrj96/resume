@@ -1,6 +1,7 @@
 import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import './Job.css';
 
 function Job(props: any) {
     return (
@@ -10,21 +11,19 @@ function Job(props: any) {
                     <h4> { props.company } </h4>
                 </Col>
                 <Col>
-                    <h4> { props.title } </h4>
+                    <h4 className="jobTitle"> { props.title } </h4>
                 </Col>
             </Row>
             <Row>
                 <h5> { props.date } </h5>
             </Row>
-            <ul>
-                {props.description.map((x: string) => {
-                    return (
-                        <li>
-                            { x }
-                        </li>
-                    )
-                })}
-            </ul>
+            {props.description.map((x: string) => {
+                return (
+                    <Row>
+                        <p>{ x }</p>
+                    </Row>
+                )
+            })}
         </Row>
     )
 }
