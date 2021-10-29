@@ -13,7 +13,7 @@ function Header() {
         <Container>
             <Row className="justify-content-center">
                 <Col xs="auto">
-                    <Image src={ PJ } className="photo" roundedCircle/>
+                    <Image src={ PJ } className="photo" />
                 </Col>
                 <Col xs="auto">
                     <Row>

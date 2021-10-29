@@ -20,7 +20,7 @@ function Job(props: any) {
             {props.description.map((x: string) => {
                 return (
                     <Row>
-                        <p>{ x }</p>
+                        <p> - { x }</p>
                     </Row>
                 )
             })}
