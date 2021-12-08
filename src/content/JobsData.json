@@ -1,11 +1,19 @@
 {
     "jobs": [
         {
+            "company": "Shift Technologies",
+            "title":"Software Engineer",
+            "date": "2022-Present",
+            "description": [
+                "Work building ruby on rails microservices"
+            ]
+        },
+        {
             "company": "Pluralsight",
             "title": "Software Engineer",
-            "date": "2021-Present",
+            "date": "2021-2022",
             "description": [
-                "Work in .NET stack building API for mobile applications.",
+                "Worked in .NET stack building API for mobile applications.",
                 "Migrated from older framework to modern .NET core in Docker/K8s.",
                 "Built backend for frontend to ensure API contracts with mobile applications."
             ]
