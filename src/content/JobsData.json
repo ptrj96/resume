@@ -2,11 +2,13 @@
     "jobs": [
         {
             "company": "Shift Technologies",
-            "title":"Software Engineer",
+            "title": "Software Engineer",
             "date": "2022-Present",
             "description": [
-                "Work maintaining golang backend code and building new microservices.",
-                "Work on product that is used on almost every transaction of a car."
+                "Designed and built greenfield python/Django microservice used on every transaction",
+                "Worked with data scientists to improve code quality and standardize code across organization",
+                "Maintained large Golang legacy codebase and migrated features to newer microservices",
+                "Helped establish templates and coding standards for python for entire organization"
             ]
         },
         {
@@ -16,7 +18,8 @@
             "description": [
                 "Worked in .NET stack building API for mobile applications.",
                 "Migrated from older framework to modern .NET core in Docker/K8s.",
-                "Built backend for frontend to ensure API contracts with mobile applications."
+                "Built backend for frontend to ensure API contracts with mobile applications.",
+                "Supported apps rated at over 4.5 stars"
             ]
         },
         {
@@ -40,7 +43,6 @@
                 "Automated the development environment with Docker and Python to decrease wasted dev time by more than 80%",
                 "Built internal Python and Bash tools to reduce repetitive tasks",
                 "Worked on a team supporting websites with over 8 million collective views per year"
-
             ]
         },
         {
@@ -53,7 +55,6 @@
                 "Ran help and review sessions",
                 "Debugged student assignments",
                 "Ranked by students as a top assistant in facilitating student learning amongst 25 total assistants"
-
             ]
         }
     ]

@@ -3,7 +3,14 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './style/Job.css';
 
-function Job(props: any) {
+export type JobProps = {
+    company: string;
+    title: string;
+    date: string;
+    description: string[];
+}
+
+function Job(props: JobProps) {
     return (
         <Row className="jobCard">
             <Row>

@@ -6,7 +6,15 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import pdf from './content/resume.pdf';
-const data = require('./content/HeaderData');
+const data: HeaderData = require('./content/HeaderData');
+
+type HeaderData = {
+    name: string;
+    title: string;
+    email: string;
+    github: string;
+    linkedin: string;
+}
 
 function Header() {
     return (
@@ -21,7 +29,7 @@ function Header() {
                         <h3> { data.title } </h3>
                     </Row>
                     <Row>
-                        <Col xs="auto"> <a className='headerLink' href = { "mailto: " + data.email } > Email </a> </Col>
+                        <Col xs="auto"> <a className='headerLink' href = { `mailto: ${data.email}` } > Email </a> </Col>
                         <Col xs="auto"> <a className='headerLink' href = { data.github } >  GitHub </a> </Col>
                         <Col xs="auto"> <a className='headerLink' href = { data.linkedin } > LinkedIn </a> </Col>
                         <Col xs="auto"> <a className='headerLink' href = { pdf } download='resume.pdf'> Resume </a></Col>
