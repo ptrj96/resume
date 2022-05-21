@@ -5,10 +5,10 @@
             "title": "Software Engineer",
             "date": "2022-Present",
             "description": [
-                "Designed and built greenfield python/Django microservice used on every transaction",
+                "Designed and built greenfield Python/Django microservice used to price over 700,000 vehicles annually",
+                "Maintain large Golang legacy codebase and migrated features to newer microservices",
                 "Worked with data scientists to improve code quality and standardize code across organization",
-                "Maintained large Golang legacy codebase and migrated features to newer microservices",
-                "Helped establish templates and coding standards for python for entire organization"
+                "Helped establish templates and coding standards for Python for entire organization"
             ]
         },
         {
