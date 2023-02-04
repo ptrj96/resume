@@ -2,7 +2,7 @@
     "jobs": [
         {
             "company": "Shift Technologies",
-            "title": "Software Engineer",
+            "title": "Senior Software Engineer",
             "date": "2022-Present",
             "description": [
                 "Designed and built greenfield Python/Django microservice used to price over 700,000 vehicles annually",
